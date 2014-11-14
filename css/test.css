@@ -1,0 +1,18 @@
+body {
+	background-color: lightgrey;
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+.content {
+	width: 65%;
+	margin: 0 auto;
+}
+.container {
+	background: url('../img/sunny_1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
