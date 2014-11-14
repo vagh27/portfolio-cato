@@ -50,6 +50,7 @@ table {
 body {
 	background-color: lightgrey;
 	font-family: 'Roboto', sans-serif;
+	height: 100%;
 }
 a {
 	text-decoration: none;
@@ -99,11 +100,13 @@ nav .logo {
 }*/
 .masthead {
 	background-image: url('../img/sunny_1.jpg');
-	background-position: center bottom;
-	background-repeat: no-repeat;
+	/*background-position: center bottom;*/
+	/*background-repeat: no-repeat;*/
 	background-size: cover;
-	height: 45rem;
-	overflow: auto;
+	height: 100%;
+	width: 100%;
+	/*overflow: auto;*/
+	position: absolute;
 }
 .masthead h1 {
 	text-align: center;

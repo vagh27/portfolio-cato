@@ -13,3 +13,6 @@ $(function(){
 });
 
 	});
+
+// var wHeight = $(window).height();
+// $('.myDiv').css('height', wHeight);
