@@ -45,8 +45,14 @@ table {
 }
 /* END RESET */
 /* GLOBAL */
+/*font-family: 'Roboto', sans-serif;*/
+
 body {
 	background-color: lightgrey;
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	text-decoration: none;
 }
 .content {
 	width: 65%;
@@ -54,20 +60,58 @@ body {
 }
 /* NAV & HEADER */
 nav {
-	background-color: #2980b9;
+	/*background-color: #2980b9;*/ /*Origianl color*/
+	background-color: #595053;
 	height: 3.5rem;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
 	border-bottom: 1px solid #eaebec;
 }
+nav .content {
+	padding: 1rem 1rem 0 1rem;
+}
+nav .logo {
+	font-family: 'Montez', cursive;
+	color: #fff;
+	font-size: 1.5rem;
+}
 .social-links {
 	float: right;
 }
 .social-links > li {
 	display: inline-block;
-	padding: 0.75rem 0 0 1rem;
+	padding-left: 1rem;
 }
+.social-links i {
+	color: #fff;
+	font-size: 1.3rem;
+	text-align: center;
+}
+/*.social-links .fa {
+	border: 0.1rem solid #fff;
+	width: 1.75rem;
+	height: 1.75rem;
+	line-height: 1.75rem;
+}*/
+.masthead {
+	background-image: url('../img/sunny_1.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40rem;
+	overflow: auto;
+}
+.masthead h1 {
+	text-align: center;
+	padding-top: 15rem;
+	color: #fff;
+	font-size: 1rem;
+}
+
+
+
+
 
 
 
