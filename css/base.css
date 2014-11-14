@@ -109,6 +109,19 @@ nav .logo {
 	font-size: 1rem;
 }
 
+.work-section {
+	background-color: #F7F2EE;
+	text-align: center;
+	padding: 1rem 0;
+}
+.work-images li {
+	display: inline-block;
+	padding: 0 0.5rem;
+}
+.about {
+	background-color: #F7F2EE;
+}
+
 
 
 
@@ -128,8 +141,9 @@ nav .logo {
 	height: 10rem;
 }
 
-
-
-/*TESTING*/
-
+footer {
+	background-color: #A58449;
+	height: 7rem;
+	text-align: center;
+}
 
