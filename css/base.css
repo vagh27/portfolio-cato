@@ -88,6 +88,9 @@ nav .logo {
 	font-size: 1.3rem;
 	text-align: center;
 }
+.social-links i:hover {
+	color: #A58449;
+}
 /*.social-links .fa {
 	border: 0.1rem solid #fff;
 	width: 1.75rem;
@@ -131,13 +134,11 @@ nav .logo {
 .textbox {
 	display: inline-block;
 	width: 75%;
-	background-color: white;
 	height: 10rem;
 }
 .about-buttons {
 	display: inline-block;
 	width: 24%;
-	background-color: white;
 	height: 10rem;
 }
 
