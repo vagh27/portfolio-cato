@@ -72,6 +72,7 @@ nav {
 }
 nav .content {
 	padding: 1rem 1rem 0 1rem;
+	position: relative;	
 }
 nav .logo {
 	font-family: 'Montez', cursive;
@@ -99,15 +100,43 @@ nav .logo {
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 42rem;
+	height: 100vh;
 	width: 100%;
 	overflow: auto;
 }
 .masthead h1 {
 	text-align: center;
-	padding-top: 25%;
+	padding-top: 35%;
 	color: #fff;
-	font-size: 1rem;
+	font-size: 1.5rem;
+}
+.arrow {
+	position: absolute;
+	bottom: 7vw;
+	left: 0;
+	height: 20px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+.arrow a {
+	font-size: 5rem;
+	color: #fff;
+}
+.arrow i {
+	-webkit-animation: bounce 1.2s ease-in-out infinite alternate;
+	-o-animation: bounce 1.2s ease-in-out infinite alternate;
+	animation: bounce 1.2s ease-in-out infinite alternate;
+}
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes bounce {
+    0%, 100% {margin-top: 0px;}
+    50% {margin-top: 2rem;}
+}
+/* Standard syntax */ 
+@keyframes bounce {
+    0%, 100% {margin-top: 0px;}
+    50% {margin-top: 2rem;}
 }
 /* WORK SECTION */
 .work-section {

@@ -1,0 +1,79 @@
+<!-- ARROW -->
+<div class="arrow">
+				<a href="#work"><i class="fa fa-angle-down"></i></a>
+			</div>
+
+.arrow {
+					position: absolute;
+					bottom: 7vw;
+					left: 0;
+					height: 20px;
+					width: 100%;
+					text-align: center;
+					margin: 0 auto;
+				}
+
+
+
+
+
+
+<div class="tabs">
+	<div class="links">
+        <div><a href="#about">About</a></div>
+		<div><a href="#skills">Skills</a></div>
+		<div><a href="#contact">Contact</a></div> 
+	</div>
+    <div id="about" class="content active">about</div>
+    <div id="skills" class="content">skills</div>
+    <div id="contact" class="content">contact</div>
+	</div>
+</div>
+
+<style>
+	.tabs {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+}
+.links {
+    position: absolute;
+    background: red;
+    left: 0;
+    width: 20%;
+    height: 100%;
+}
+.links div {
+    height: 33%;
+    position: relative;
+}
+.links div a {
+    text-align: center;
+    margin: -10px auto 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    line-height: 20px;
+}
+.content {
+    display: none;
+    box-sizing: border-box;
+    padding: 20px;
+    background: gold;
+    position: absolute;
+    left: 20%;
+    right: 0;
+    height: 100%;
+}
+.active {
+    display: block;
+}
+</style>
+
+
+
+
+
+
+

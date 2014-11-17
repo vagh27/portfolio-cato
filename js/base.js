@@ -1,16 +1,18 @@
+$(function() {
+  // get nav height
+  var navHeight = $('.top-navigation').height();
 
-// $(function(){
-
-// 	$('.about-buttons a').click(function(){
-
-// 	var text = $(this).data('text'),
-// 		title = $(this).data('title'),
-// 		url = $(this).data('url');
-
-// 	$('.dynamicText').html(text);
-// 	$('.dynamicTitle').html(title);
-// 	$('.dynamicURL').attr('href',url).text("Link >");
-
-// });
-
-// 	});
+  // smooth scroll anchor links
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top-navHeight
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
