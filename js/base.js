@@ -1,3 +1,4 @@
+
 $(function(){
 
 	$('.about-buttons a').click(function(){
@@ -13,6 +14,3 @@ $(function(){
 });
 
 	});
-
-// var wHeight = $(window).height();
-// $('.myDiv').css('height', wHeight);
