@@ -55,11 +55,12 @@ body {
 a {
 	text-decoration: none;
 }
+.clear {clear: both;}
 .content {
 	width: 65%;
 	margin: 0 auto;
 }
-/* NAV & HEADER */
+/* TOP NAV */
 nav {
 	/*background-color: #2980b9;*/ /*Origianl color*/
 	background-color: #595053;
@@ -92,6 +93,7 @@ nav .logo {
 .social-links i:hover {
 	color: #A58449;
 }
+/* HEADER */
 .masthead {
 	background-image: url('../img/sunny_1.jpg');
 	background-position: center bottom;
@@ -107,39 +109,74 @@ nav .logo {
 	color: #fff;
 	font-size: 1rem;
 }
+/* WORK SECTION */
 .work-section {
 	background-color: #fff;
 }
+.work-images {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 2.5rem;
+}
+.work-images .caption {
+	padding-bottom: 0.5rem;
+}
 .work-images li {
 	display: inline-block;
-}
-.about-section, .skills-section {
-	background-color: #F2EDE9;
-	height: 8rem;
-}
-.about-section {
-	padding-top: 3rem;
-}
-
-
-.headline {
-	display: inline-block;
-	width: 20%;
 	text-align: center;
+	padding: 2%;
+}
+/* ABOUT SECTION */
+.about-section {
+	padding: 3rem 0 4rem 0;
+	color: #3C3B41;
+}
+.about-section .content {
+	padding: 0 1rem;
+}
+.about-section h2 {
+	padding-bottom: 4rem;
 	text-transform: uppercase;
-	height: 3rem;
+	text-align: center;
 	font-size: 1.5rem;
 }
-.text-box {
-	display: inline-block;
-	width: 79%;
+.about-section img {
+	float: left;
 }
-
+.about-section li {
+	display: inline-block;
+}
+.text-block {
+	width: 39%;
+	padding-left: 4rem;
+}
+/* FOOTER */
 footer {
 	background-color: #5B5055;
-	height: 7rem;
+	height: 12rem;
 	text-align: center;
 }
+footer h2 {
+	color: #fff;
+	font-weight: 100;
+	padding: 2rem 0;
+}
+footer button {
+	width: 10rem;
+	height: 5rem;
+	border: 1px solid #eaebec;
+	background-color: transparent;
+}
+footer button a {
+	color: #eaebec;
+	font-size: 1.2em;
+}
+footer button:hover {
+	background-color: #A58449;
+}
+
+
 
 
 
