@@ -48,7 +48,7 @@ table {
 /*font-family: 'Roboto', sans-serif;*/
 
 body {
-	background-color: lightgrey;
+	background-color: #FFF;
 	font-family: 'Ubuntu', sans-serif;
 /*	height: 100%;*/
 }
@@ -141,6 +141,7 @@ nav .logo {
 /* WORK SECTION */
 .work-section {
 	background-color: #fff;
+	padding-bottom: 5rem;
 }
 .work-images {
 	width: 95%;
@@ -156,29 +157,64 @@ nav .logo {
 	text-align: center;
 	padding: 2%;
 }
-/* ABOUT SECTION */
-.about-section {
-	padding: 3rem 0 4rem 0;
-	color: #3C3B41;
+/* TABS */
+.tabs-section {
+    background: lightgrey;
+    position: relative;
+    min-height: 400px;
+    width: 65%;
+	margin: 0 auto;
+	padding-bottom: 5rem;
 }
-.about-section .content {
-	padding: 0 1rem;
+.tabs-links {
+    position: absolute;
+    background: #5B5055;
+    left: 0;
+    width: 20%;
+    height: 101%;
 }
-.about-section h2 {
-	padding-bottom: 4rem;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 1.5rem;
+.tabs-links div {
+    height: 33%;
+    position: relative;
 }
-.about-section img {
+.tabs-links div a {
+    text-align: center;
+    margin: -10px auto 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.content-text {
+    opacity: 0;
+    /*box-sizing: border-box;*/
+    padding: 3rem;
+    position: absolute;
+    left: 20%;
+    right: 0;
+    height: 100%;
+    /* transition: opacity 0.5s ease-in-out; */
+}
+.about-image {
 	float: left;
 }
-.about-section li {
-	display: inline-block;
+.about-text {
+	float: left;
+	width: 60%;
+	padding: 1rem 0 0 2rem;
 }
-.text-block {
-	width: 39%;
-	padding-left: 4rem;
+.active {
+    opacity: 1;
+    /* transition: opacity 0.5s ease-in-out; */
+}
+.active-bg {
+    background: lightgrey;
+}
+.active-bg a {
+	color: #000;
 }
 /* FOOTER */
 footer {

@@ -15,7 +15,19 @@ $(function() {
 	    	}
 		}
 	});
+
   	$('.mobileMenu').click(function(){ // THIS SHOWS THE MOBILE NAVI //
   		$('.nav').toggleClass('navShow');
 	});
+
+  	$('.tabs-links a').on('click', function() {
+    // set to current tab
+    var currentTab = $(this).attr('href');
+    // update tab color
+    $(this).parent().siblings().removeClass('active-bg');
+    $(this).parent('div').addClass('active-bg');
+    // update content
+    $('.content-text').removeClass('active');
+    $(currentTab).addClass('active');    
+});
 });
