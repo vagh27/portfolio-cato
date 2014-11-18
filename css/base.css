@@ -48,7 +48,7 @@ table {
 /*font-family: 'Roboto', sans-serif;*/
 
 body {
-	background-color: #FFF;
+	background-color: #A1A1A1;
 	font-family: 'Ubuntu', sans-serif;
 /*	height: 100%;*/
 }
@@ -159,7 +159,7 @@ nav .logo {
 }
 /* TABS */
 .tabs-section {
-    background: lightgrey;
+    background: #A1A1A1;
     position: relative;
     min-height: 400px;
     width: 65%;
@@ -168,14 +168,17 @@ nav .logo {
 }
 .tabs-links {
     position: absolute;
-    background: #5B5055;
+    background: #A1A1A1;
     left: 0;
     width: 20%;
-    height: 101%;
+    height: 100%;
 }
 .tabs-links div {
     height: 33%;
     position: relative;
+}
+.about-link, .skills-link {
+	border-bottom: 2px solid #eaebec;
 }
 .tabs-links div a {
     text-align: center;
@@ -187,6 +190,7 @@ nav .logo {
     line-height: 20px;
     text-transform: uppercase;
     font-size: 1.5rem;
+    color: #fff;
 }
 .content-text {
     opacity: 0;
@@ -211,36 +215,23 @@ nav .logo {
     /* transition: opacity 0.5s ease-in-out; */
 }
 .active-bg {
-    background: lightgrey;
+    background: #A9A9A9;
 }
 .active-bg a {
 	color: #000;
 }
 /* FOOTER */
 footer {
-	background-color: #5B5055;
-	height: 12rem;
+	background-color: #3C3B41;
+	height: 6rem;
 	text-align: center;
 }
-footer h2 {
+footer .copy {
 	color: #fff;
 	font-weight: 100;
-	padding: 2rem 0;
+	font-size: 0.75rem;
+	line-height: 6rem;
 }
-footer button {
-	width: 10rem;
-	height: 5rem;
-	border: 1px solid #eaebec;
-	background-color: transparent;
-}
-footer button a {
-	color: #eaebec;
-	font-size: 1.2em;
-}
-footer button:hover {
-	background-color: #A58449;
-}
-
 
 /* mobile */
 @media (max-width: 767px) {
