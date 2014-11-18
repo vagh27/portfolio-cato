@@ -94,6 +94,7 @@ nav .logo {
 .social-links i:hover {
 	color: #A58449;
 }
+.mobileMenu { display: none; }
 /* HEADER */
 .masthead {
 	background-image: url('../img/sunny_1.jpg');
@@ -196,8 +197,7 @@ nav .logo {
     color: #3C3B41;
 }
 .content-text {
-    opacity: 0;
-    /*box-sizing: border-box;*/
+    display: none;
     padding: 3rem;
     position: absolute;
     left: 20%;
@@ -214,7 +214,7 @@ nav .logo {
 	padding: 1rem 0 0 2rem;
 }
 .active {
-    opacity: 1;
+    display: block;
     /* transition: opacity 0.5s ease-in-out; */
 }
 .active-bg {
@@ -226,15 +226,24 @@ nav .logo {
 }
 /* ABOUT TAB */
 /* SKILLS TAB */
+.tabs-section .content-text-skills {
+	padding-top: 5rem;
+	text-align: center;
+	font-size: 2rem;
+	line-height: 4rem;
+}
+.tabs-section .content-text-skills span {
+	color: #fff;
+}
 /* CONTACT TAB */
-.tabs-section .content-text {
+.tabs-section .content-text-contact {
 	text-align: center;
 }
-.tabs-section .content-text h2 {
+.tabs-section .content-text-contact h2 {
 	font-size: 2rem;
 	padding: 1rem 0 5rem 0;
 }
-.tabs-section .content-text .content-text-button {
+.tabs-section .content-text-contact .contact-button {
 	display: inline-block;
 	margin: 0 2rem;
 	border: 1px solid #3C3B41;
@@ -243,11 +252,13 @@ nav .logo {
 	line-height: 8rem;
 	font-size: 1.5rem;
 }
-.tabs-section .content-text .content-text-button a, p {
+.tabs-section .content-text-contact .contact-button a, 
+.tabs-section .content-text-contact .contact-button p {
 	color: #000;
 	display: block;
 }
-.tabs-section .content-text .content-text-button a:hover, p:hover {
+.tabs-section .content-text-contact .contact-button a:hover, 
+.tabs-section .content-text-contact .contact-button p:hover {
 	background-color: #3C3B41;
 	color: #fff;
 }
@@ -255,13 +266,13 @@ nav .logo {
 /* FOOTER */
 footer {
 	background-color: #3C3B41;
-	height: 10rem;
+	height: 12rem;
 	text-align: center;
 }
 footer .email {
 	color: #fff;
 	font-weight: 100;
-	padding-top: 2rem;
+	padding-top: 3rem;
 }
 footer .email i {
 	color: #fff;
@@ -284,11 +295,40 @@ footer .copy {
 
 /* mobile */
 @media (max-width: 767px) {
+	.content {
+		width: 100%;
+	}
+	.masthead h1 {
+		padding-top: 70%;
+	}
+	.arrow {
+		bottom: 30vw;
+	}
+	.work-images img {
+		width: 100%;
+	}
+	
+	.tabs-section {
+		width: 90%;
+	}
+
+
 
 }
 /* tablet portrait */
 @media (min-width: 768px) and (max-width: 1023px) {
-
+	.content {
+		width: 90%;
+	}
+	.work-images {
+		width: 100%;
+	}
+	.work-images li {
+		padding: 1%;
+	}
+	.tabs-section .content-text-contact h2 {
+		padding: 1rem 0 2rem 0;
+	}
 }
 /* tablet landscape and up */
 @media (min-width: 1024px) {
