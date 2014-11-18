@@ -150,12 +150,15 @@ nav .logo {
 	padding-top: 2.5rem;
 }
 .work-images .caption {
-	padding-bottom: 0.5rem;
+	padding-bottom: 1rem;
+}
+.work-images img {
+	border: 1px solid #3C3B41;
 }
 .work-images li {
 	display: inline-block;
 	text-align: center;
-	padding: 2%;
+	padding: 2.5%;
 }
 /* TABS */
 .tabs-section {
@@ -180,7 +183,7 @@ nav .logo {
 .about-link, .skills-link {
 	border-bottom: 2px solid #3C3B41;
 }
-.tabs-links div a {
+.tabs-links a {
     text-align: center;
     margin: -10px auto 0;
     position: absolute;
@@ -219,13 +222,41 @@ nav .logo {
 }
 .active-bg a {
 	color: #000;
+	font-weight: bold;
 }
+/* ABOUT TAB */
+/* SKILLS TAB */
+/* CONTACT TAB */
+.tabs-section .content-text {
+	text-align: center;
+}
+.tabs-section .content-text h2 {
+	font-size: 2rem;
+	padding: 1rem 0 5rem 0;
+}
+.tabs-section .content-text .content-text-button {
+	display: inline-block;
+	margin: 0 2rem;
+	border: 1px solid #3C3B41;
+	width: 15rem;
+	height: 8rem;
+	line-height: 8rem;
+	font-size: 1.5rem;
+}
+.tabs-section .content-text .content-text-button a, p {
+	color: #000;
+	display: block;
+}
+.tabs-section .content-text .content-text-button a:hover, p:hover {
+	background-color: #3C3B41;
+	color: #fff;
+}
+
 /* FOOTER */
 footer {
 	background-color: #3C3B41;
 	height: 10rem;
 	text-align: center;
-
 }
 footer .email {
 	color: #fff;
@@ -239,6 +270,9 @@ footer .email i {
 }
 footer .email i:hover {
 	color: #A58449;
+}
+footer span {
+	padding-left: 0.3rem;
 }
 footer .copy {
 	color: #fff;
