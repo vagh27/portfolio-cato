@@ -60,6 +60,10 @@ a {
 	width: 65%;
 	margin: 0 auto;
 }
+.work-content {
+	width: 80%;
+	margin: 0 auto;
+}
 /* TOP NAV */
 nav {
 	/*background-color: #2980b9;*/ /*Origianl color*/
@@ -145,7 +149,7 @@ nav .logo {
 	padding-bottom: 5rem;
 }
 .work-images {
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 2.5rem;
@@ -203,6 +207,7 @@ nav .logo {
     left: 20%;
     right: 0;
     height: 100%;
+    text-align: center;
     /* transition: opacity 0.5s ease-in-out; */
 }
 .about-image {
@@ -210,8 +215,9 @@ nav .logo {
 }
 .about-text {
 	float: left;
-	width: 60%;
+	width: 70%;
 	padding: 1rem 0 0 2rem;
+	text-align: left;
 }
 .active {
     display: block;
@@ -228,7 +234,6 @@ nav .logo {
 /* SKILLS TAB */
 .tabs-section .content-text-skills {
 	padding-top: 5rem;
-	text-align: center;
 	font-size: 2rem;
 	line-height: 4rem;
 }
@@ -236,9 +241,6 @@ nav .logo {
 	color: #fff;
 }
 /* CONTACT TAB */
-.tabs-section .content-text-contact {
-	text-align: center;
-}
 .tabs-section .content-text-contact h2 {
 	font-size: 2rem;
 	padding: 1rem 0 5rem 0;
@@ -311,9 +313,6 @@ footer .copy {
 	.tabs-section {
 		width: 90%;
 	}
-
-
-
 }
 /* tablet portrait */
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -329,10 +328,15 @@ footer .copy {
 	.tabs-section .content-text-contact h2 {
 		padding: 1rem 0 2rem 0;
 	}
+	.work-content {
+		width: 100%;
+	}
 }
 /* tablet landscape and up */
-@media (min-width: 1024px) {
-
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.content {
+		width: 70%;
+	}
 }
 
 
