@@ -295,6 +295,19 @@ footer .copy {
 }
 
 
+/* small mobile */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	.social-links > li {
+		padding-left: 0.5rem;
+	}
+	nav .logo {
+		font-size: 1rem;
+	}
+	.masthead {
+		height: 32rem;
+	}
+}
+
 /* mobile */
 @media (max-width: 767px) {
 	.content {
@@ -316,7 +329,7 @@ footer .copy {
 		padding: 1.5rem;
 	}
 	.tabs-section {
-		width: 90%;
+		width: 100%;
 	}
 	.tabs-links a {
 		font-size: 0.8rem;
