@@ -156,9 +156,10 @@ nav .logo {
 }
 .work-images .caption {
 	padding-bottom: 1rem;
+	color: #595053;
 }
 .work-images img {
-	border: 1px solid #3C3B41;
+	border: 1px solid #595053;
 }
 .work-images li {
 	display: inline-block;
@@ -198,7 +199,7 @@ nav .logo {
     line-height: 20px;
     text-transform: uppercase;
     font-size: 1.5rem;
-    color: #3C3B41;
+    color: #595053;
 }
 .content-text {
     display: none;
@@ -208,6 +209,7 @@ nav .logo {
     right: 0;
     height: 100%;
     text-align: center;
+    color: #3C3B41;
     /* transition: opacity 0.5s ease-in-out; */
 }
 .about-image {
@@ -227,7 +229,7 @@ nav .logo {
     background: #A9A9A9;
 }
 .active-bg a {
-	color: #000;
+	color: #3C3B41;
 	font-weight: bold;
 }
 /* ABOUT TAB */
@@ -256,7 +258,7 @@ nav .logo {
 }
 .tabs-section .content-text-contact .contact-button a, 
 .tabs-section .content-text-contact .contact-button p {
-	color: #000;
+	color: #3C3B41;
 	display: block;
 }
 .tabs-section .content-text-contact .contact-button a:hover, 
