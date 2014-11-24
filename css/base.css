@@ -236,7 +236,7 @@ nav .logo {
 /* SKILLS TAB */
 .tabs-section .content-text-skills {
 	padding-top: 5rem;
-	font-size: 2rem;
+	font-size: 1.75rem;
 	line-height: 4rem;
 }
 .tabs-section .content-text-skills span {
@@ -244,27 +244,31 @@ nav .logo {
 }
 /* CONTACT TAB */
 .tabs-section .content-text-contact h2 {
-	font-size: 2rem;
+	font-size: 1.75rem;
 	padding: 1rem 0 5rem 0;
 }
 .tabs-section .content-text-contact .contact-button {
 	display: inline-block;
 	margin: 0 2rem;
 	border: 1px solid #3C3B41;
+	background-color: #3C3B41;
 	width: 15rem;
 	height: 8rem;
 	line-height: 8rem;
 	font-size: 1.5rem;
 }
+.tabs-section .content-text-contact .contact-button {
+	box-sizing: content-box;
+}
 .tabs-section .content-text-contact .contact-button a, 
 .tabs-section .content-text-contact .contact-button p {
-	color: #3C3B41;
+	color: #fff;
 	display: block;
 }
 .tabs-section .content-text-contact .contact-button a:hover, 
 .tabs-section .content-text-contact .contact-button p:hover {
-	background-color: #3C3B41;
-	color: #fff;
+	color: #3C3B41;
+	background-color: #A9A9A9;
 }
 
 /* FOOTER */
